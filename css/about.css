@@ -1,0 +1,2653 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 0px;
+  color: #4b4b4b;
+  background-color: #3a3a40;
+  opacity: 0.9;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+/* css for styling nav bar*/
+     /* Add a dark background color with a little bit see-through */
+.navbar {
+    margin-bottom: 0;
+    background-color: #6d3d30;
+    padding-left: 10px;
+    padding-right: 45px;
+    border: 0;
+    font-size: 15px !important;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+/*css for styling navbar-brand or logo*/
+.navbar-brand{
+   font-size: 35px;
+   font-weight: 65px;
+   letter-spacing: 3px;
+   padding-left: 30px;
+   padding-top: 20px;
+   opacity: 1;
+}
+
+.nav{
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 5px;
+   padding-bottom: 8px;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+.navbar li a{
+    border-bottom: 3px solid transparent;
+}
+
+/* On hover, the links will turn black */
+.navbar-nav li a:hover {
+    color: #f00 !important;
+    border-bottom-color: #f00;
+    outline: 0;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: black !important;
+    background-color: transparent !important;
+    border-bottom-color: black;
+    outline: 0;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #6d3d30 ;
+    border-bottom-color: #fff;
+    background-color: transparent !important;
+}
+
+/* Dropdown links */
+.navbar-nav .dropdown-menu li a {
+    color: #6d3d30 !important;
+    border-bottom-color: transparent;
+    text-decoration: none;
+}
+.dropdown-menu li a:active {
+    color: #6d3d30 !important;
+    border-bottom-color: transparent;
+    text-decoration: none;
+    outline: 0;
+}
+.navbar-nav .dropdown-menu li a:active {
+    color: #6d3d30 !important;
+    border-bottom-color: transparent;
+    text-decoration: none;
+    outline: 0;
+}
+
+/* On hover, the dropdown links will turn black */
+.dropdown-menu li a:hover {
+    background-color: transparent !important;
+    outline: 0;
+}
+.navbar-nav .dropdown-menu li a:hover {
+    background-color: black !important;
+    border-color: transparent;
+    outline: 0;
+}
+
+.navbar-nav .dropdown li a{
+    color: #6d3d30;
+    background-color: transparent !important;
+}
+.navbar-nav .dropdown li a:active{
+    color: #6d3d30;
+    background-color: black !important;
+    outline: 0;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 700px;
+  margin-bottom: 0px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 700px;
+  background-color: transparent;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  min-width: 100%;
+  height: 700px;
+}
+
+/* CUSTOMIZE THE CONTAINERS
+-------------------------------------------------- */
+.about-wrapper{
+   margin-top: 0px;
+   color: #6d3d30;
+   font-size: inherit;
+   height: inherit;
+   opacity: 1;
+}
+
+.bg-about{
+   margin-top: 0px;
+   background-color: white;
+   color: #6d3d30;
+   font-size: inherit;
+   height: 680px;
+   padding-bottom: 40px;
+   opacity: 1;
+}
+.bg-about .headers{
+   margin-top: 120px;
+   margin-left: 440px;
+}
+.bg-about img.headers{
+  width: 35px;
+  height: 20px;
+}
+.bg-about h1{
+   padding-top: 95px;
+   padding-bottom: 40px;
+}
+.bg-about a{
+   color: white;
+   text-decoration: none;
+}
+.bg-about a:hover{
+   color: #f00;
+}
+.col-about{
+   display: inline-block;
+}
+.bg-about img{
+   margin-top: 30px;
+   margin-left: 60px;
+   margin-right: 40px;
+   width: 235px;
+   height: 140px;
+   background-color: transparent;
+   text-decoration: none;
+   float: left;
+}
+.bg-about img:hover{
+   width: 640px;
+   height: 400px;
+}
+.bg-about p{
+   padding-top: 30px;
+   padding-left: 40px;
+   padding-right: 40px;
+   color: black;
+   text-align: center;
+   clear;
+}
+
+.bg-belief{
+   margin-top: 0px;
+   background-color: #6d3d30;
+   color: white;
+   font-size: inherit;
+   height: inherit;
+   opacity: 0.7;
+}
+.bg-belief .headers{
+   position: absolute;
+   margin-top: 120px;
+   margin-left: 430px;
+}
+.bg-belief .row{
+     height: 300px;
+     margin-top: 20px;
+     padding-top: 20px;
+}
+
+.bg-leaders{
+   margin-top: 0px;
+   background-color: white;
+   color: #6d3d30;
+   font-size: inherit;
+   height: inherit;
+}
+.bg-leaders .headers{
+   position: absolute;
+   margin-top: 120px;
+   margin-left: 430px;
+}
+.bg-leaders .extras .row a, a:visited{
+   color: #f00;
+   text-decoration: none;
+}
+.bg-leaders .extras a:hover{
+   color: #6d3d30;
+}
+.bg-leaders p{
+   color: black;
+}
+
+
+/*styling for thumbnails*/
+.thumbnail {
+   background-color: #fff;
+   color: #6d3d30;
+   padding: 0 0 0 0px;
+}
+
+/*styling for image on headers*/
+.headers{
+   position: absolute;
+   margin-top: 120px;
+   margin-left: 450px;
+}
+
+/*styling for buttons in body*/
+.btn-default:hover{
+   color:#333;
+   background-color:#d4d4d4;
+   border-color:#8c8c8c
+   }
+
+/*styling for glyphicons*/
+ .glyphicon-hand-up{
+    padding-top: 605px;
+    padding-right: 100px;
+    margin-right: 50px;
+    background-color: transparent;
+    height: 200px;
+    width: 0px;
+    position: fixed;
+ }
+
+ /*styling for anchors*/
+.scrollup{
+    color: #6d3d30;
+	height:40px;
+	width:40px;
+	font-size:25px;
+	line-height:30px;
+	text-align:center;
+	text-decoration:none;
+	position:fixed;
+    bottom: 40px;
+	right:150px;
+	opacity:0,5;
+	border-radius:50%;
+	z-index:999;
+}
+a.scrollup:hover{
+	color: #15c698;
+}
+
+ /*styling for footer */
+ .extras{
+      color: #6d3d30;
+      margin-top: 100px;
+      margin-left: 3px;
+      margin-right: 0px;
+ }
+   .footer{
+      padding-top: 10px;
+      padding-left: 25px;
+	  padding-right: 55px;
+	  padding-bottom: 15px;
+   }
+.footer a{
+    color: #15c698;
+ }
+.bg-leaders .extras .row a, a:visited{
+   color: #f00;
+   text-decoration: none;
+}
+.bg-leaders .extras a:hover{
+   color: #6d3d30;
+}
+
+/*css for styling belief container*/
+.wow{
+	 background-color: black;
+	 border-radius: 100%;
+	 margin-left: 270px;
+	 margin-top: 60px;
+	 padding-top: 35px;
+	 opacity: 0.9;
+	 color: #fff;
+     height:140px;
+     width:140px;
+     font-size:60px;
+     line-height:30px;
+     text-align:center;
+     text-decoration:none;
+     bottom: 40px;
+     right:150px;
+     z-index:999;
+
+}
+.wow:hover{
+	 background-color: #6d3d30;
+	 border-radius: 100%;
+	 margin-left: 270px;
+     margin-top: 60px;
+     padding-top: 35px;
+	 width: 140px;
+	 height: 140px;
+	 opacity: 0.7;
+	 color: black;
+}
+
+/*css for styling leaders container*/
+.leaders .row{
+     margin-top: 10px;
+     padding-top: 10px;
+     padding-bottom: 50px;
+
+     color: black;
+}
+.leaders a, a:active, a:visited{
+     color: #f00;
+     text-decoration: none;
+     outline: 0;
+
+}
+.leaders a:hover{
+     color: #6d3d30;
+     text-decoration: none;
+     border-style: none;
+}
+
+/*styling for breadcrumbs */
+.breadcrumb {
+  padding: 8px 15px;
+  margin-top: 120px;
+  margin-bottom: 0px;
+  list-style: none;
+  background-color: black;
+  border-radius: 4px;
+  width: 200px;
+  opacity: 0.9;
+  position: fixed;
+  z-index: 1;
+}
+.breadcrumb > li {
+  display: inline-block;
+}
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  z-index: 1;
+  color: #fff;
+  content: "/\00a0";
+}
+.breadcrumb > .active {
+  color: #6d3d30;
+}
+.breadcrumb > a {
+  color: #fff;
+}
+.breadcrumb > a:active, a:visited {
+  color: #fff;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 230px) {
+/*styling of navigation bar for min-width 230px*/
+   .logo{
+       width: 50px;
+       height: 50px;
+   }
+   .navbar-brand{
+      font-size: 30px;
+      font-weight: 65px;
+      letter-spacing: 2px;
+      padding-left: 10px;
+      padding-top: 15px;
+   }
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  .navbar-toggle {
+    margin-right: -30px;
+  }
+  .navbar-nav > li > a {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    line-height: 20px;
+    border-style: none;
+  }
+  .navbar-collapse.collapse {
+    height: inherit !important;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 160px;
+  }
+  .navbar-nav .open .dropdown-menu {
+    margin-top: -10px;
+    margin-left: 45px;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+  }
+  /* Dropdown links */
+  .navbar-nav .dropdown-menu li a {
+      font-size: 12px;
+      margin-top: -5px;
+      color: #6d3d30 !important;
+      margin-left: 0px;
+      border-color: transparent;
+  }
+  .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+
+  /* On hover, the dropdown links will turn black */
+  .dropdown-menu li a:hover {
+      background-color: transparent !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:hover {
+      background-color: black !important;
+      margin-top: -5px;
+      border-color: transparent;
+      outline: 0;
+  }
+
+  .navbar-nav .dropdown li a{
+      color: #6d3d30;
+      background-color: transparent !important;
+  }
+  .navbar-nav .dropdown li a:active{
+      color: #6d3d30;
+      background-color: black !important;
+      outline: 0;
+  }
+
+/*styling for containers of media min-width: 230px*/
+.bg-about{
+   font-size: 12px;
+   height: inherit;
+   padding-bottom: 120px;
+}
+.bg-about .headers{
+   margin-top: 120px;
+   margin-left: 45px;
+}
+.bg-about img.headers{
+  width: 24px;
+  height: 20px;
+}
+.bg-about h1{
+   padding-top: 95px;
+   font-size: 27px;
+   padding-bottom: 60px;
+}
+.bg-about img{
+   margin-left: 30px;
+   margin-right: 0px;
+   width: 195px;
+   height: 100px;
+   border-radius: 4px;
+   margin-bottom: 20px;
+}
+.bg-about img:hover{
+   width: 220px;
+   height: 190px;
+}
+.bg-about row{
+   padding-top: 30px;
+}
+.bg-about p{
+   padding-top: 20px;
+   padding-left: 25px;
+   padding-right: 25px;
+   align: center;
+}
+
+.bg-belief{
+   margin-top: 0px;
+   font-size: 12px;
+   height: inherit;
+   padding-bottom: 40px;
+}
+.bg-belief .headers{
+   margin-top: 120px;
+   margin-left: 35px;
+}
+.bg-belief img.headers{
+  width: 24px;
+  height: 20px;
+}
+.bg-belief h1{
+   padding-top: 95px;
+   font-size: 27px;
+   padding-bottom: 60px;
+}
+.bg-belief h3{
+   font-size: 14px;
+}
+.bg-belief .row{
+     height: 200px;
+     margin-top: 20px;
+     padding-top: 0px;
+     margin-left: 0px;
+     margin-right: 10px;
+}
+.bg-belief p{
+   text-align: center;
+}
+.wow{
+	 margin-left: 10px;
+	 margin-top: 30px;
+	 padding-top: 25px;
+     height:80px;
+     width:80px;
+     font-size:30px;
+     line-height:20px;
+     bottom: 40px;
+     right:150px;
+}
+.wow:hover{
+	 margin-left: 10px;
+     margin-top: 30px;
+     padding-top: 25px;
+	 width: 80px;
+	 height: 80px;
+}
+
+.bg-leaders{
+   font-size: 12px;
+   height: inherit;
+}
+.bg-leaders .headers{
+   margin-top: 120px;
+   margin-left: 25px;
+}
+.bg-leaders img.headers{
+  width: 24px;
+  height: 20px;
+}
+.bg-leaders h1{
+   font-size: 27px;
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-leaders h3{
+   font-size: 16px;
+}
+.bg-leaders h4{
+   font-size: 14px;
+}
+.bg-leaders p{
+      padding-top: 20px;
+      padding-left: 25px;
+      padding-right: 25px;
+      align: justify;
+   }
+/*styling for the columns and images in the leaders container*/
+.col-lead_1{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_1 img{
+     min-width: 100%;
+     height: 100px;
+}
+.col-lead_2{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_2 img{
+     min-width: 90%;
+     height: 90px;
+}
+.leaders .row{
+     margin-top: 10px;
+     padding-bottom: 10px;
+     color: black;
+}
+.leaders a, a:active, a:visited{
+     color: #f00;
+     text-decoration: none;
+     outline: 0;
+}
+.leaders a:hover{
+     color: #6d3d30;
+     text-decoration: none;
+     border-style: none;
+}
+
+/*styling for thumbnails*/
+.thumbnail {
+   background-color: #fff;
+   color: #6d3d30;
+   padding: 0 0 0 0px;
+}
+
+/*styling for breadcrumbs */
+.breadcrumb {
+  padding-left: 5px;
+  margin-top: 150px;
+  margin-left: 0px;
+  margin-right: -10px;
+  margin-bottom: 0px;
+  width: 100px;
+  font-size: 11px;
+}
+.breadcrumb > li + li:before {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #fff;
+}
+.breadcrumb > a{
+  color: #fff;
+}
+.breadcrumb > a:hover {
+  color: #f00;
+}
+.breadcrumb > a:active, a:visited {
+  color: #fff;
+}
+
+/*styling for glyphicon hand*/
+.scrollup{
+    color: #6d3d30;
+	height:0px;
+	width:0px;
+	font-size:20px;
+	line-height:30px;
+    bottom: 40px;
+	right: 40px;
+}
+ .glyphicon-hand-up{
+    padding-top: 370px;
+    padding-right: 0px;
+    margin-right: 100px;
+    height: 200px;
+    width: 0px;
+ }
+}
+
+@media (min-width: 388px) {
+/*styling of navigation bar for min-width 388px*/
+   .logo{
+       width: 50px;
+       height: 50px;
+   }
+   .navbar-brand{
+      font-size: 30px;
+      font-weight: 65px;
+      letter-spacing: 2px;
+      padding-left: 10px;
+      padding-top: 15px;
+   }
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  .navbar-toggle {
+    margin-right: -30px;
+  }
+  .navbar-nav > li > a {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    line-height: 20px;
+    border-style: none;
+
+  }
+  .navbar-collapse.collapse {
+    height: inherit !important;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 155px;
+  }
+  .navbar-nav .open .dropdown-menu {
+    margin-top: -11px;
+    margin-left: 97px;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+  }
+  /* Dropdown links */
+  .navbar-nav .dropdown-menu li a {
+      font-size: 12px;
+      margin-top: -5px;
+      color: #6d3d30 !important;
+      margin-left: 0px;
+      border-color: transparent;
+  }
+  .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+
+  /* On hover, the dropdown links will turn black */
+  .dropdown-menu li a:hover {
+      background-color: transparent !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:hover {
+      background-color: black !important;
+      margin-top: -5px;
+      border-color: transparent;
+      outline: 0;
+  }
+
+  .navbar-nav .dropdown li a{
+      color: #6d3d30;
+      background-color: transparent !important;
+  }
+  .navbar-nav .dropdown li a:active{
+      color: #6d3d30;
+      background-color: black !important;
+      outline: 0;
+  }
+
+/*styling for containers for min-width 388px*/
+/*styling for the about container*/
+.bg-about{
+   font-size: 12px;
+   height: inherit;
+   padding-bottom: 120px;
+}
+.bg-about .headers{
+   margin-top: 85px;
+   margin-left: 85px;
+}
+.bg-about img.headers{
+  width: 24px;
+  height: 20px;
+}
+.bg-about h1{
+   padding-top: 60px;
+   font-size: 27px;
+   padding-bottom: 60px;
+}
+.bg-about img{
+   margin-left: 30px;
+   margin-right: 5px;
+   width: 195px;
+   height: 100px;
+   border-radius: 4px;
+   margin-bottom: 20px;
+}
+.bg-about img:hover{
+   width: 220px;
+   height: 190px;
+}
+.bg-about row{
+   padding-top: 30px;
+}
+.bg-about p{
+   padding-top: 20px;
+   padding-left: 25px;
+   padding-right: 25px;
+   align: center;
+}
+
+.bg-belief{
+   margin-top: 0px;
+   font-size: 12px;
+   height: inherit;
+   padding-bottom: 40px;
+}
+.bg-belief .headers{
+   margin-top: 120px;
+   margin-left: 75px;
+}
+.bg-belief img.headers{
+  width: 24px;
+  height: 20px;
+}
+.bg-belief h1{
+   padding-top: 95px;
+   font-size: 27px;
+   padding-bottom: 60px;
+}
+.bg-belief h3{
+   font-size: 14px;
+}
+.bg-belief .row{
+     height: 200px;
+     margin-top: 20px;
+     padding-top: 0px;
+     margin-left: 0px;
+     margin-right: 10px;
+}
+.bg-belief p{
+   text-align: center;
+}
+.wow{
+	 margin-left: 10px;
+	 margin-top: 30px;
+	 padding-top: 25px;
+     height:80px;
+     width:80px;
+     font-size:30px;
+     line-height:20px;
+     bottom: 40px;
+     right:150px;
+}
+.wow:hover{
+	 margin-left: 10px;
+     margin-top: 30px;
+     padding-top: 25px;
+	 width: 80px;
+	 height: 80px;
+}
+
+/*styling for the leaders container*/
+.bg-leaders{
+   font-size: 12px;
+   height: inherit;
+   padding-bottom: 60px;
+}
+.bg-leaders .headers{
+   margin-top: 120px;
+   margin-left: 70px;
+}
+.bg-leaders img.headers{
+  width: 24px;
+  height: 20px;
+}
+.bg-leaders h1{
+   font-size: 27px;
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-leaders h3{
+   font-size: 18px;
+}
+.bg-leaders h4{
+   color: black;
+   font-size: 14px;
+}
+.bg-leaders .row{
+     margin-top: 0px;
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.bg-leaders p{
+      padding-top: 20px;
+      padding-left: 25px;
+      padding-right: 25px;
+      align: justify;
+   }
+/*styling for the columns and images in the leaders container*/
+.col-lead_1{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_1 img{
+     min-width: 100%;
+     height: 100px;
+}
+.col-lead_2{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_2 img{
+     min-width: 90%;
+     height: 90px;
+}
+
+/*styling for breadcrumbs */
+.breadcrumb {
+  padding-left: 5px;
+  margin-top: 150px;
+  margin-left: 0px;
+  margin-right: -10px;
+  margin-bottom: 0px;
+  width: 100px;
+  font-size: 11px;
+}
+.breadcrumb > li + li:before {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #fff;
+}
+.breadcrumb > a{
+  color: #fff;
+}
+.breadcrumb > a:hover {
+  color: #f00;
+}
+.breadcrumb > a:active, a:visited {
+  color: #fff;
+}
+
+/*styling for the hand*/
+.scrollup{
+    color: #6d3d30;
+	height:0px;
+	width:0px;
+	font-size:20px;
+	line-height:30px;
+    bottom: 40px;
+	right: 40px;
+}
+ .glyphicon-hand-up{
+    padding-top: 445px;
+    padding-right: 0px;
+    margin-right: 100px;
+    height: 200px;
+    width: 0px;
+ }
+}
+
+@media (min-width: 506px) {
+/*styling of navigation bar for min-width 506px*/
+   .logo{
+       width: 50px;
+       height: 50px;
+   }
+   .navbar-brand{
+      font-size: 30px;
+      font-weight: 65px;
+      letter-spacing: 2px;
+      padding-left: 10px;
+      padding-top: 15px;
+   }
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  .navbar-toggle {
+    margin-right: -30px;
+  }
+  .navbar-nav > li > a {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    line-height: 20px;
+    border-style: none;
+  }
+  .navbar-collapse.collapse {
+    height: inherit !important;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 155px;
+  }
+  .navbar-nav .open .dropdown-menu {
+    margin-top: -11px;
+    margin-left: 97px;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+  }
+  /* Dropdown links */
+  .navbar-nav .dropdown-menu li a {
+      font-size: 12px;
+      margin-top: -5px;
+      color: #6d3d30 !important;
+      margin-left: 0px;
+      border-color: transparent;
+  }
+  .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+
+  /* On hover, the dropdown links will turn black */
+  .dropdown-menu li a:hover {
+      background-color: transparent !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:hover {
+      background-color: black !important;
+      margin-top: -5px;
+      border-color: transparent;
+      outline: 0;
+  }
+
+  .navbar-nav .dropdown li a{
+      color: #6d3d30;
+      background-color: transparent !important;
+  }
+  .navbar-nav .dropdown li a:active{
+      color: #6d3d30;
+      background-color: black !important;
+      outline: 0;
+  }
+
+/*styling for containers for min-width 506px*/
+/*styling for the about container*/
+.bg-about{
+   font-size: 12px;
+   height: inherit;
+   padding-bottom: 120px;
+}
+.bg-about .headers{
+   margin-top: 120px;
+   margin-left: 140px;
+}
+.bg-about img.headers{
+  width: 24px;
+  height: 20px;
+}
+.bg-about h1{
+   padding-top: 95px;
+   font-size: 27px;
+   padding-bottom: 60px;
+}
+.bg-about img{
+   margin-left: 30px;
+   margin-right: 10px;
+   width: 195px;
+   height: 100px;
+   border-radius: 4px;
+   margin-bottom: 20px;
+}
+.bg-about img:hover{
+   width: 220px;
+   height: 190px;
+}
+.bg-about row{
+   padding-top: 30px;
+}
+.bg-about p{
+   padding-top: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   align: center;
+}
+
+.bg-belief{
+   margin-top: 0px;
+   font-size: 12px;
+   height: inherit;
+   padding-bottom: 40px;
+}
+.bg-belief .headers{
+   margin-top: 120px;
+   margin-left: 125px;
+}
+.bg-belief img.headers{
+  width: 24px;
+  height: 20px;
+}
+.bg-belief h1{
+   padding-top: 95px;
+   font-size: 27px;
+   padding-bottom: 60px;
+}
+.bg-belief h3{
+   font-size: 14px;
+}
+.bg-belief .row{
+     height: 200px;
+     margin-top: 20px;
+     padding-top: 0px;
+     margin-left: 0px;
+     margin-right: 10px;
+}
+.bg-belief p{
+   text-align: center;
+}
+.wow{
+	 margin-left: 10px;
+	 margin-top: 30px;
+	 padding-top: 25px;
+     height:80px;
+     width:80px;
+     font-size:30px;
+     line-height:20px;
+     bottom: 40px;
+     right:150px;
+}
+.wow:hover{
+	 margin-left: 10px;
+     margin-top: 30px;
+     padding-top: 25px;
+	 width: 80px;
+	 height: 80px;
+}
+
+/*styling for the leaders container*/
+.bg-leaders{
+   font-size: 12px;
+   height: inherit;
+   padding-bottom: 60px;
+}
+.bg-leaders .headers{
+   margin-top: 120px;
+   margin-left: 125px;
+}
+.bg-leaders img.headers{
+  width: 24px;
+  height: 20px;
+}
+.bg-leaders h1{
+   font-size: 27px;
+   padding-top: 95px;
+   padding-bottom: 70px;
+}
+.bg-leaders h3{
+   font-size: 18px;
+}
+.bg-leaders h4{
+   color: black;
+   font-size: 14px;
+}
+.bg-leaders p{
+      padding-top: 20px;
+      padding-left: 25px;
+      padding-right: 25px;
+      align: justify;
+   }
+.bg-leaders .row{
+     margin-top: 0px;
+     margin-left: 0px;
+     margin-right: 0px;
+}
+/*styling for the columns and images in the leaders container*/
+.col-lead_1{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_1 img{
+     min-width: 60%;
+     height: 80px;
+}
+.col-lead_2{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_2 img{
+     min-width: 40%;
+     height: 70px;
+}
+
+/*styling for breadcrumbs */
+.breadcrumb {
+  padding-left: 5px;
+  margin-top: 160px;
+  margin-left: 0px;
+  margin-right: -10px;
+  margin-bottom: 0px;
+  width: 100px;
+  font-size: 11px;
+}
+.breadcrumb > li + li:before {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #fff;
+}
+.breadcrumb > a{
+  color: #fff;
+}
+.breadcrumb > a:hover {
+  color: #f00;
+}
+.breadcrumb > a:active, a:visited {
+  color: #fff;
+}
+
+/*styling for the hand*/
+.scrollup{
+    color: #6d3d30;
+	height:0px;
+	width:0px;
+	font-size:20px;
+	line-height:30px;
+    bottom: 40px;
+	right: 40px;
+}
+ .glyphicon-hand-up{
+    padding-top: 455px;
+    padding-right: 0px;
+    margin-right: 100px;
+    height: 200px;
+    width: 0px;
+ }
+}
+
+@media (min-width: 630px) {
+/*styling of navigation bar for min-width 630px*/
+   .logo{
+       width: 60px;
+       height: 60px;
+   }
+   .navbar-brand{
+      font-size: 30px;
+      font-weight: 65px;
+      letter-spacing: 2px;
+      padding-left: 15px;
+      padding-top: 18px;
+   }
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    border-radius: 2px;
+  }
+  .navbar-toggle {
+    margin-top: 10px;
+    margin-right: -25px;
+  }
+  .navbar-nav > li > a {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    line-height: 20px;
+    border-style: none;
+  }
+  .navbar-collapse.collapse {
+    height: inherit !important;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 155px;
+  }
+  .navbar-nav .open .dropdown-menu {
+    margin-top: -11px;
+    margin-left: 97px;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+  }
+  /* Dropdown links */
+  .navbar-nav .dropdown-menu li a {
+      font-size: 12px;
+      margin-top: -5px;
+      color: #6d3d30 !important;
+      margin-left: 0px;
+      border-color: transparent;
+  }
+  .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+  /* On hover, the dropdown links will turn black */
+  .dropdown-menu li a:hover {
+      background-color: transparent !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:hover {
+      background-color: black !important;
+      margin-top: -4px;
+      border-color: transparent;
+      outline: 0;
+  }
+  .navbar-nav .dropdown li a{
+      color: #6d3d30;
+      background-color: transparent !important;
+  }
+  .navbar-nav .dropdown li a:active{
+      color: #6d3d30;
+      background-color: black !important;
+      outline: 0;
+  }
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+/*styling for containers for min-width 630px*/
+/*styling for the about container*/
+.bg-about{
+   font-size: 12px;
+   height: inherit;
+   padding-bottom: 120px;
+}
+.bg-about .headers{
+   margin-top: 120px;
+   margin-left: 185px;
+}
+.bg-about img.headers{
+  width: 30px;
+  height: 25px;
+}
+.bg-about h1{
+   padding-top: 95px;
+   font-size: 35px;
+   padding-bottom: 60px;
+}
+.bg-about img{
+   margin-left: 30px;
+   margin-right: 10px;
+   width: 195px;
+   height: 100px;
+   border-radius: 4px;
+   margin-bottom: 20px;
+}
+.bg-about img:hover{
+   width: 220px;
+   height: 190px;
+}
+.bg-about row{
+   padding-top: 30px;
+}
+.bg-about p{
+   padding-top: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   align: center;
+}
+
+.bg-belief{
+   margin-top: 0px;
+   font-size: 12px;
+   height: inherit;
+   padding-bottom: 40px;
+}
+.bg-belief .headers{
+   margin-top: 120px;
+   margin-left: 170px;
+}
+.bg-belief img.headers{
+  width: 30px;
+  height: 25px;
+}
+.bg-belief h1{
+   padding-top: 95px;
+   font-size: 35px;
+   padding-bottom: 60px;
+}
+.bg-belief h3{
+   font-size: 22px;
+}
+.bg-belief .row{
+     height: 200px;
+     margin-top: 20px;
+     padding-top: 0px;
+     margin-left: 0px;
+     margin-right: 10px;
+}
+.bg-belief p{
+   text-align: center;
+}
+.wow{
+	 margin-left: 10px;
+	 margin-top: 30px;
+	 padding-top: 25px;
+     height:80px;
+     width:80px;
+     font-size:30px;
+     line-height:20px;
+     bottom: 40px;
+     right:150px;
+}
+.wow:hover{
+	 margin-left: 10px;
+     margin-top: 30px;
+     padding-top: 25px;
+	 width: 80px;
+	 height: 80px;
+}
+
+.bg-leaders{
+   font-size: 14px;
+   height: inherit;
+   padding-bottom: 5px;
+}
+.bg-leaders .headers{
+   margin-top: 120px;
+   margin-left: 160px;
+}
+.bg-leaders img.headers{
+  width: 30px;
+  height: 25px;
+}
+.bg-leaders h1{
+   font-size: 35px;
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-leaders h3{
+   font-size: 22px;
+}
+.bg-leaders h4{
+   color: black;
+   font-size: 16px;
+}
+.bg-leaders p{
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      align: justify;
+   }
+.bg-leaders .row{
+     margin-top: 10px;
+     margin-left: 0px;
+     margin-right: 0px;
+}
+/*styling for the columns and images in the leaders container*/
+.col-lead_1{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_1 img{
+     min-width: 60%;
+     height: 90px;
+}
+.col-lead_2{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_2 img{
+     min-width: 40%;
+     height: 80px;
+}
+
+/*styling for breadcrumbs */
+.breadcrumb {
+  padding-left: 5px;
+  margin-top: 150px;
+  margin-left: 0px;
+  margin-right: -10px;
+  margin-bottom: 0px;
+  width: 120px;
+  font-size: 12px;
+}
+.breadcrumb > li + li:before {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #fff;
+}
+.breadcrumb > a{
+  color: #fff;
+}
+.breadcrumb > a:hover {
+  color: #f00;
+}
+.breadcrumb > a:active, a:visited {
+  color: #fff;
+}
+
+/*styling for the hand*/
+.scrollup{
+    color: #6d3d30;
+	height:0px;
+	width:0px;
+	font-size:20px;
+	line-height:30px;
+    bottom: 40px;
+	right: 40px;
+}
+ .glyphicon-hand-up{
+    padding-top: 545px;
+    padding-right: 0px;
+    margin-right: 100px;
+    height: 200px;
+    width: 0px;
+ }
+}
+
+@media (min-width: 768px) {
+/*styling of navigation bar for min-width 768px*/
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+   .navbar-brand{
+      font-size: 35px;
+      font-weight: 65px;
+      letter-spacing: 2px;
+      padding-left: 15px;
+      padding-top: 22px;
+   }
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-nav > li > a {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    line-height: 20px;
+  }
+  .navbar-collapse.collapse {
+    height: inherit !important;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+  /* Dropdown links */
+  .navbar-nav .dropdown-menu li a {
+      font-size: 13px;
+      margin-top: 0px;
+      color: #6d3d30 !important;
+      margin-left: 0px;
+      border-color: transparent;
+  }
+  .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+  /* On hover, the dropdown links will turn black */
+  .dropdown-menu li a:hover {
+      background-color: transparent !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:hover {
+      background-color: black !important;
+      margin-top: 0px;
+      border-color: transparent;
+      outline: 0;
+  }
+  .navbar-nav .dropdown li a{
+      color: #6d3d30;
+      background-color: transparent !important;
+  }
+  .navbar-nav .dropdown li a:active{
+      color: #6d3d30;
+      background-color: black !important;
+      outline: 0;
+  }
+   .nav{
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+   }
+
+
+/*styling for containers for max-width 768px*/
+/*styling for the about container*/
+.bg-about{
+   font-size: 12px;
+   height: inherit;
+   padding-bottom: 120px;
+}
+.bg-about .headers{
+   margin-top: 120px;
+   margin-left: 250px;
+}
+.bg-about img.headers{
+  width: 30px;
+  height: 25px;
+}
+.bg-about h1{
+   padding-top: 95px;
+   font-size: 35px;
+   padding-bottom: 60px;
+}
+.bg-about img{
+   margin-left: 30px;
+   margin-right: 10px;
+   width: 215px;
+   height: 120px;
+   border-radius: 4px;
+   margin-bottom: 20px;
+}
+.bg-about img:hover{
+   width: 270px;
+   height: 190px;
+}
+.bg-about row{
+   padding-top: 30px;
+}
+.bg-about p{
+   padding-top: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   align: center;
+}
+
+.bg-belief{
+   margin-top: 0px;
+   font-size: 12px;
+   height: inherit;
+   padding-bottom: 40px;
+}
+.bg-belief .headers{
+   margin-top: 120px;
+   margin-left: 240px;
+}
+.bg-belief img.headers{
+  width: 30px;
+  height: 25px;
+}
+.bg-belief h1{
+   padding-top: 95px;
+   font-size: 35px;
+   padding-bottom: 60px;
+}
+.bg-belief h3{
+   font-size: 22px;
+}
+.bg-belief .row{
+     height: 200px;
+     margin-top: 20px;
+     padding-top: 0px;
+     margin-left: 0px;
+     margin-right: 10px;
+}
+.bg-belief p{
+   text-align: center;
+}
+.wow{
+	 margin-left: 10px;
+	 margin-top: 30px;
+	 padding-top: 25px;
+     height:80px;
+     width:80px;
+     font-size:30px;
+     line-height:20px;
+     bottom: 40px;
+     right:150px;
+}
+.wow:hover{
+	 margin-left: 10px;
+     margin-top: 30px;
+     padding-top: 25px;
+	 width: 80px;
+	 height: 80px;
+}
+
+/*styling for the leaders container*/
+.bg-leaders{
+   font-size: 14px;
+   height: inherit;
+   padding-bottom: 5px;
+}
+.bg-leaders .headers{
+   margin-top: 120px;
+   margin-left: 230px;
+}
+.bg-leaders img.headers{
+  width: 30px;
+  height: 25px;
+}
+.bg-leaders h1{
+   font-size: 35px;
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-leaders h3{
+   font-size: 22px;
+}
+.bg-leaders h4{
+   color: black;
+   font-size: 16px;
+}
+.bg-leaders p{
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      align: justify;
+
+   }
+.bg-leaders .row{
+     margin-top: 10px;
+     margin-left: 0px;
+     margin-right: 0px;
+}
+/*styling for the columns and images in the leaders container*/
+.col-lead_1{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_1 img{
+     min-width: 60%;
+     height: 100px;
+}
+.col-lead_2{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_2 img{
+     min-width: 40%;
+     height: 90px;
+}
+
+/*styling for breadcrumbs */
+.breadcrumb {
+  padding-left: 5px;
+  margin-top: 160px;
+  margin-left: 0px;
+  margin-right: -10px;
+  margin-bottom: 0px;
+  width: 120px;
+  font-size: 12px;
+}
+.breadcrumb > li + li:before {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #fff;
+}
+.breadcrumb > a{
+  color: #fff;
+}
+.breadcrumb > a:hover {
+  color: #f00;
+}
+.breadcrumb > a:active, a:visited {
+  color: #fff;
+}
+
+/*styling for the hand*/
+.scrollup{
+    color: #6d3d30;
+	height:0px;
+	width:0px;
+	font-size:20px;
+	line-height:30px;
+    bottom: 40px;
+	right: 40px;
+}
+ .glyphicon-hand-up{
+    padding-top: 565px;
+    padding-right: 0px;
+    margin-right: 100px;
+    height: 200px;
+    width: 0px;
+ }
+}
+
+@media (min-width: 887px) {
+/*styling of navigation bar for min-width 887px*/
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+   .navbar-brand{
+      font-size: 35px;
+      font-weight: 65px;
+      letter-spacing: 2px;
+      padding-left: 15px;
+      padding-top: 25px;
+   }
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-nav > li > a {
+    font-size: inherit;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    line-height: 20px;
+  }
+  .navbar-collapse.collapse {
+    height: inherit !important;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+  /* Dropdown links */
+  .navbar-nav .dropdown-menu li a {
+      font-size: inherit;
+      margin-top: 0px;
+      color: #6d3d30 !important;
+      margin-left: 0px;
+      border-color: transparent;
+  }
+  .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+  /* On hover, the dropdown links will turn black */
+  .dropdown-menu li a:hover {
+      background-color: transparent !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:hover {
+      background-color: black !important;
+      margin-top: 0px;
+      border-color: transparent;
+      outline: 0;
+  }
+  .navbar-nav .dropdown li a{
+      color: #6d3d30;
+      background-color: transparent !important;
+  }
+  .navbar-nav .dropdown li a:active{
+      color: #6d3d30;
+      background-color: black !important;
+      outline: 0;
+  }
+
+/*styling for containers for min-width 887px*/
+/*styling for the about container*/
+.bg-about{
+   font-size: 14px;
+   height: inherit;
+   padding-bottom: 120px;
+}
+.bg-about .headers{
+   margin-top: 120px;
+   margin-left: 250px;
+}
+.bg-about img.headers{
+  width: 30px;
+  height: 25px;
+}
+.bg-about h1{
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-about img{
+   margin-left: 30px;
+   margin-right: 15px;
+   width: 215px;
+   height: 120px;
+   border-radius: 4px;
+   margin-bottom: 20px;
+}
+.bg-about img:hover{
+   width: 270px;
+   height: 190px;
+}
+.bg-about row{
+   padding-top: 30px;
+}
+.bg-about p{
+   padding-top: 20px;
+   padding-left: 40px;
+   padding-right: 40px;
+   align: center;
+}
+
+.bg-belief{
+   margin-top: 0px;
+   font-size: 14px;
+   height: inherit;
+   padding-bottom: 70px;
+}
+.bg-belief .headers{
+   margin-top: 120px;
+   margin-left: 240px;
+}
+.bg-belief img.headers{
+  width: 30px;
+  height: 25px;
+}
+.bg-belief h1{
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-belief h3{
+}
+.bg-belief .row{
+     height: 200px;
+     margin-top: 20px;
+     padding-top: 0px;
+     margin-left: 100px;
+     margin-right: 20px;
+}
+.bg-belief p{
+   text-align: center;
+}
+.wow{
+	 margin-left: 10px;
+	 margin-top: 30px;
+	 padding-top: 33px;
+     height:100px;
+     width:100px;
+     font-size:35px;
+     line-height:20px;
+     bottom: 40px;
+     right:150px;
+}
+.wow:hover{
+	 margin-left: 10px;
+     margin-top: 30px;
+     padding-top: 33px;
+	 width: 100px;
+	 height: 100px;
+     font-size:35px;
+     line-height:20px;
+}
+
+/*styling for the leaders container*/
+.bg-leaders{
+   font-size: 14px;
+   height: inherit;
+   padding-bottom: 5px;
+}
+.bg-leaders .headers{
+   margin-top: 120px;
+   margin-left: 230px;
+}
+.bg-leaders img.headers{
+  width: 30px;
+  height: 25px;
+}
+.bg-leaders h1{
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-leaders h3{
+}
+.bg-leaders h4{
+   color: black;
+   font-size: 16px;
+}
+.bg-leaders p{
+      padding-top: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+      align: justify;
+   }
+.bg-leaders .row{
+     margin-top: 10px;
+     margin-left: 0px;
+     margin-right: 0px;
+}
+/*styling for the columns and images in the leaders container*/
+.col-lead_1{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_1 img{
+     min-width: 60%;
+     height: 110px;
+}
+.col-lead_2{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_2 img{
+     min-width: 40%;
+     height: 100px;
+}
+
+/*styling for breadcrumbs */
+.breadcrumb {
+  padding-left: 7px;
+  margin-top: 150px;
+  margin-left: 0px;
+  margin-right: -10px;
+  margin-bottom: 0px;
+  width: 130px;
+  font-size: 13px;
+}
+.breadcrumb > li + li:before {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #fff;
+}
+.breadcrumb > a{
+  color: #fff;
+}
+.breadcrumb > a:hover {
+  color: #f00;
+}
+.breadcrumb > a:active, a:visited {
+  color: #fff;
+}
+
+/*styling for the hand*/
+.scrollup{
+    color: #6d3d30;
+	height:0px;
+	width:0px;
+	font-size:20px;
+	line-height:30px;
+    bottom: 40px;
+	right: 150px;
+}
+ .glyphicon-hand-up{
+    padding-top: 590px;
+    padding-right: 0px;
+    margin-right: 100px;
+    height: 220px;
+    width: 0px;
+ }
+}
+
+@media (min-width: 992px) {
+/*styling of navigation bar for min-width 992px*/
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+   .navbar-brand{
+      font-size: 40px;
+      font-weight: 65px;
+      letter-spacing: 2px;
+      padding-left: 15px;
+      padding-top: 25px;
+   }
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-nav > li > a {
+    font-size: inherit;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    line-height: 20px;
+  }
+  .navbar-collapse.collapse {
+    height: inherit !important;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+  /* Dropdown links */
+  .navbar-nav .dropdown-menu li a {
+      font-size: inherit;
+      margin-top: 0px;
+      color: #6d3d30 !important;
+      margin-left: 0px;
+      border-color: transparent;
+  }
+  .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:active {
+      color: #6d3d30 !important;
+      outline: 0;
+  }
+  /* On hover, the dropdown links will turn black */
+  .dropdown-menu li a:hover {
+      background-color: transparent !important;
+      outline: 0;
+  }
+  .navbar-nav .dropdown-menu li a:hover {
+      background-color: black !important;
+      margin-top: 0px;
+      border-color: transparent;
+      outline: 0;
+  }
+  .navbar-nav .dropdown li a{
+      color: #6d3d30;
+      background-color: transparent !important;
+  }
+  .navbar-nav .dropdown li a:active{
+      color: #6d3d30;
+      background-color: black !important;
+      outline: 0;
+  }
+
+/*styling for containers for min-width 992px*/
+/*styling for the about container*/
+.bg-about{
+   font-size: inherit;
+   height: inherit;
+   padding-bottom: 120px;
+}
+.bg-about .headers{
+   margin-top: 120px;
+   margin-left: 330px;
+}
+.bg-about img.headers{
+  width: 30px;
+  height: 25px;
+}
+.bg-about h1{
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-about img{
+   margin-left: 100px;
+   margin-right: 25px;
+   width: 230px;
+   height: 140px;
+   border-radius: 4px;
+   margin-bottom: 20px;
+}
+.bg-about img:hover{
+   width: 340px;
+   height: 220px;
+}
+.bg-about row{
+   padding-top: 30px;
+}
+.bg-about p{
+   padding-top: 20px;
+   padding-left: 40px;
+   padding-right: 40px;
+   align: center;
+}
+
+.bg-belief{
+   margin-top: 0px;
+   font-size: 14px;
+   height: inherit;
+   padding-bottom: 70px;
+}
+.bg-belief .headers{
+   margin-top: 120px;
+   margin-left: 340px;
+}
+.bg-belief img.headers{
+  width: 30px;
+  height: 25px;
+}
+.bg-belief h1{
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-belief h3{
+}
+.bg-belief .row{
+     height: 200px;
+     margin-top: 20px;
+     padding-top: 0px;
+     margin-left: 120px;
+     margin-right: 50px;
+}
+.bg-belief p{
+   text-align: center;
+}
+.wow{
+	 margin-left: 10px;
+	 margin-top: 30px;
+	 padding-top: 33px;
+     height:100px;
+     width:100px;
+     font-size:35px;
+     line-height:20px;
+     bottom: 40px;
+     right:150px;
+}
+.wow:hover{
+	 margin-left: 10px;
+     margin-top: 30px;
+     padding-top: 33px;
+	 width: 100px;
+	 height: 100px;
+     font-size:35px;
+     line-height:20px;
+}
+
+/*styling for the leaders container*/
+.bg-leaders{
+   font-size: 14px;
+   height: inherit;
+   padding-bottom: 5px;
+}
+.bg-leaders .headers{
+   margin-top: 120px;
+   margin-left: 338px;
+}
+.bg-leaders img.headers{
+  width: 30px;
+  height: 25px;
+}
+.bg-leaders h1{
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-leaders h3{
+}
+.bg-leaders h4{
+   color: black;
+   font-size: 16px;
+}
+.bg-leaders p{
+      padding-top: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+      align: justify;
+   }
+.bg-leaders .row{
+     margin-top: 10px;
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_1{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_1 img{
+     min-width: 60%;
+     height: 110px;
+}
+.col-lead_2{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_2 img{
+     min-width: 40%;
+     height: 120px;
+}
+
+/*styling for breadcrumbs */
+.breadcrumb {
+  padding-left: 7px;
+  margin-top: 150px;
+  margin-left: 0px;
+  margin-right: -10px;
+  margin-bottom: 0px;
+  width: 140px;
+  font-size: 13px;
+}
+.breadcrumb > li + li:before {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #fff;
+}
+.breadcrumb > a{
+  color: #fff;
+}
+.breadcrumb > a:hover {
+  color: #f00;
+}
+.breadcrumb > a:active, a:visited {
+  color: #fff;
+}
+
+/*styling for the hand*/
+.scrollup{
+    color: #6d3d30;
+	height:0px;
+	width:0px;
+	font-size:20px;
+	line-height:30px;
+    bottom: 40px;
+	right: 150px;
+}
+ .glyphicon-hand-up{
+    padding-top: 590px;
+    padding-right: 0px;
+    margin-right: 100px;
+    height: 220px;
+    width: 0px;
+ }
+}
+
+@media (min-width: 1069px) {
+/*styling for the about container*/
+.bg-about{
+   height: inherit;
+   padding-bottom: 120px;
+}
+.bg-about p{
+      padding-top: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+      align: center;
+   }
+.bg-about h1{
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-about .headers{
+   margin-top: 120px;
+   margin-left: 363px;
+}
+.bg-about img.headers{
+  width: 35px;
+  height: 25px;
+}
+
+/*styling for the belief container*/
+.bg-belief{
+   height: inherit;
+   padding-bottom: 60px;
+}
+.bg-belief h1{
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-belief .headers{
+   margin-top: 120px;
+   margin-left: 348px;
+}
+.bg-belief img.headers{
+  width: 35px;
+  height: 25px;
+}
+.bg-belief .row{
+     height: 200px;
+     margin-top: 20px;
+     padding-top: 0px;
+     margin-left: 140px;
+     margin-right: 50px;
+}
+
+/*styling for the leaders container*/
+.bg-leaders{
+   height: inherit;
+   padding-bottom: 5px;
+}
+.bg-leaders h1{
+   padding-top: 95px;
+   padding-bottom: 60px;
+}
+.bg-leaders .headers{
+   margin-top: 120px;
+   margin-left: 338px;
+}
+.bg-leaders img.headers{
+  width: 35px;
+  height: 25px;
+}
+.bg-leaders p{
+      padding-top: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+      align: center;
+   }
+.col-lead_1{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_1 img{
+     min-width: 60%;
+     height: 150px;
+}
+.col-lead_2{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.col-lead_2 img{
+     min-width: 40%;
+     height: 140px;
+}
+
+/*styling for breadcrumbs */
+.breadcrumb {
+  padding-left: 8px;
+  margin-top: 150px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  width: 160px;
+  font-size: inherit;
+}
+.breadcrumb > li + li:before {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #fff;
+}
+.breadcrumb > a{
+  color: #fff;
+}
+.breadcrumb > a:hover {
+  color: #f00;
+}
+.breadcrumb > a:active, a:visited {
+  color: #fff;
+}
+
+/*styling for the hand*/
+.scrollup{
+    color: #6d3d30;
+	height: 0px;
+	width: 0px;
+	font-size: 25px;
+	line-height: 30px;
+    bottom: 40px;
+	right: 150px;
+}
+ .glyphicon-hand-up{
+    padding-top: 605px;
+    padding-right: 0px;
+    margin-right: 100px;
+    height: 230px;
+    width: 0px;
+ }
+}
+
+@media (min-width: 1172px) {
+   /*styling for the about container*/
+   .bg-about{
+      padding-bottom: 120px;
+   }
+   .bg-about .headers{
+      margin-top: 120px;
+      margin-left: 350px;
+   }
+      .bg-about p{
+         padding-top: 20px;
+         padding-left: 50px;
+         padding-right: 50px;
+         align: center;
+      }
+
+   /*styling for the belief container*/
+   .bg-belief{
+      height: inherit;
+      padding-bottom: 120px;
+   }
+   .bg-belief .headers{
+      margin-top: 120px;
+      margin-left: 340px;
+   }
+   .bg-belief .row{
+        height: 200px;
+        margin-top: 20px;
+        padding-top: 0px;
+        margin-left: 140px;
+        margin-right: 50px;
+   }
+   .wow{
+   	 border-radius: 100%;
+   	 margin-left: 50px;
+   	 margin-top: 50px;
+   	 padding-top: 40px;
+     height:140px;
+     width:140px;
+     font-size:60px;
+     line-height:30px;
+     bottom: 40px;
+     right:150px;
+
+   }
+   .wow:hover{
+   	 border-radius: 100%;
+   	 margin-left: 50px;
+     margin-top: 60px;
+     padding-top: 40px;
+   	 width: 140px;
+   	 height: 140px;
+     font-size:60px;
+     line-height:30px;
+
+   }
+
+   /*styling for the leaders container*/
+   .bg-leaders .headers{
+      margin-top: 120px;
+      margin-left: 330px;
+   }
+   .bg-leaders p{
+      padding-top: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+      align: justify;
+   }
+
+}
+@media (min-width: 1200px) {
+   /*styling for the about container*/
+   .bg-about .headers{
+      margin-top: 120px;
+      margin-left: 450px;
+   }
+   .bg-about p{
+      padding-top: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+      align: center;
+   }
+
+   /*styling for the belief container*/
+   .bg-belief{
+      height: inherit;
+      padding-bottom: 120px;
+   }
+   .bg-belief .headers{
+      margin-top: 120px;
+      margin-left: 440px;
+   }
+   .bg-belief .row{
+        height: 200px;
+        margin-top: 20px;
+        padding-top: 0px;
+        margin-left: 150px;
+        margin-right: 50px;
+   }
+   .wow{
+   	 border-radius: 100%;
+   	 margin-left: 80px;
+   	 margin-top: 60px;
+   	 padding-top: 40px;
+     height:140px;
+     width:140px;
+     font-size:60px;
+     line-height:30px;
+     bottom: 40px;
+     right:150px;
+
+   }
+   .wow:hover{
+   	 border-radius: 100%;
+   	 margin-left: 80px;
+     margin-top: 60px;
+     padding-top: 40px;
+   	 width: 140px;
+   	 height: 140px;
+     font-size:60px;
+     line-height:30px;
+
+   }
+
+   /*styling for the leaders container*/
+   .bg-leaders .headers{
+      margin-top: 120px;
+      margin-left: 430px;
+   }
+}
